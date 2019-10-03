@@ -1,2 +1,12 @@
-# ruby_shared_configs
-Store rubocop.yml and other config files that our ruby projects need 🐢
+# Shared Ruby Project Config Files
+
+
+## Rubocop
+
+Put this at the top of your `.rubocop.yml` file in your project:
+
+
+```
+inherit_from:
+  - https://github.com/GetTerminus/ruby_shared_configs/blob/master/.rubocop.yml
+```
