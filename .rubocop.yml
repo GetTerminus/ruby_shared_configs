@@ -2,7 +2,7 @@ AllCops:
   Exclude:
     - Makefile
     - vendor/**/*
-    - bin/*
+    - bin/**/*
 
 Layout/EndOfLine:
   Enabled: false
@@ -45,10 +45,10 @@ Layout/LineLength:
 
 Metrics/AbcSize:
   Enabled: true
-  Max: 47
+  Max: 48
 
 Metrics/CyclomaticComplexity:
-  Max: 7
+  Max: 9
 
 Metrics/MethodLength:
   Enabled: true
@@ -84,3 +84,8 @@ Metrics/ParameterLists:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - spec/**/*.rb
+
+Style/BlockDelimiters:
+  Enabled: true
+  Exclude:
+    - spec/**/*
