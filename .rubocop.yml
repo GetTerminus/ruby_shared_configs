@@ -84,3 +84,8 @@ Metrics/ParameterLists:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - spec/**/*.rb
+
+Style/BlockDelimiters:
+  Enabled: true
+  Exclude:
+    - spec/**/*
