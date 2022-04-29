@@ -3,6 +3,7 @@ AllCops:
     - Makefile
     - vendor/**/*
     - bin/**/*
+    - '**/*_pb.rb'
 
 Layout/EndOfLine:
   Enabled: false
