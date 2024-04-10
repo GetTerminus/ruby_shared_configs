@@ -1,0 +1,9 @@
+# This file is managed in https://github.com/GetTerminus/discworld.
+# Any changes will be overwritten, so please make your changes there.  You have been warned.
+
+# Teams with write access will review new request in this repo.
+* @GetTerminus/applications-backend
+
+# Admins must review new changes to this specific policy. Applies only to CODEOWNERS at
+# the root so vendored CODEOWNERS files do not trigger requiring an admin.
+/CODEOWNERS @GetTerminus/all-repos-admins
